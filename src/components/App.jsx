@@ -33,6 +33,7 @@ class App extends Component {
         }
 
         this.createMatrix(input);
+        this.input.value = '';
     }
 
     createMatrix = (n) => {
@@ -83,7 +84,7 @@ class App extends Component {
             <div>
                 <div className="input-group re">
                     <div className="input-group-prepend">
-                        <button className="btn btn-outline-secondary" type="button" onClick={this.handleClick}>Create</button>
+                        <button className="btn btn-outline-secondary bbb" type="button" onClick={this.handleClick}>Create</button>
                     </div>&nbsp;&nbsp;&nbsp;
                     <input type="text" className="form-control bb" placeholder="" aria-label="" aria-describedby="basic-addon1" ref={input => this.input = input}/>
                 </div>

@@ -5,6 +5,7 @@ import {connect} from 'react-redux';
 import {start} from '../redux/actions';
 import './matrix.css'
 
+
 class Matrix extends Component {
 
     static propTypes = {
